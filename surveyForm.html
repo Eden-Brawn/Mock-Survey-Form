@@ -11,7 +11,7 @@
         <p id="description">Please fill out the form below to help us improve our services.</p>
     </section>
     <form id="survey-form">
-      <section id="">
+      <section id="background">
         <label for="name" id="name-label">Full Name: <input type="text" id="name" placeholder="Enter your full name" required /></label>
 
         <label for="email" id="email-label">Email Address: <input type="email" id="email" placeholder="Enter your email address" required /></label>
@@ -26,8 +26,8 @@
             </select>
         </label>
       </section>
-
-      <section>
+      <hr>
+      <section id="rate-your-interaction">
         <fieldset id="set1">
             <legend>Did the delvery time meet your expectations</legend>
             <label for="button1"><input type="radio" name="radio-input-one" id="button1" value="Option-One" /> Yes</label>
@@ -39,7 +39,8 @@
             <label for="radio2"><input type="radio" name="radio-input-two" id="radio2" value="radio-One" /> No</label>
         </fieldset>
       </section>
-    <section>
+      <hr>
+    <section id="rate-your-experience">
         <label>How satisfied are you with your experience:</label>
         <label for="box1" id="box-label1"><input type="checkbox" value="box1" id="box1" /> Very Satisfied</label>
         <label for="box2" id="box-label2"><input type="checkbox" value="box2" id="box2" /> Satisfied</label>
@@ -47,7 +48,7 @@
         <label for="box4" id="box-label4"><input type="checkbox" value="box4" id="box4" /> Disatisfied</label>
         <label for="box5" id="box-label5"><input type="checkbox" value="box5" id="box5" /> Very Disatisfied</label>
 
-        <label for="comments" id="comments-label">Enter any comments: <textarea id="comments" name="comments"></textarea>
+        <label for="comments" id="comments-label">Do you have any comments: <textarea id="comments" name="comments"></textarea>
     </section>
     <button type="submit" id="submit">Submit</button>
   </form>

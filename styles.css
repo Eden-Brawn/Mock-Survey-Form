@@ -9,7 +9,8 @@ body{
 #head{
     background-color: white;
     text-align: center;
-    width: 75%;
+    width: 79%;
+  margin: auto;  
 }
 #survey-form{
     background-color: white;
@@ -26,7 +27,9 @@ body{
     display: flex;
     flex-direction: column;
     flex-wrap:wrap;
-
+    justify-content: center;
+    align-items: center;
+    width: 100%;
 }
 #rate-your-interaction{
     display: flex;

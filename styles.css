@@ -1,3 +1,6 @@
+*{
+    box-sizing: border-box;
+}
 body{
     background-color: rgb(0, 170, 43);
     display: flex;
@@ -9,7 +12,7 @@ body{
 #head{
     background-color: white;
     text-align: center;
-    width: 79%;
+    width: fit-content;
   margin: auto;  
 }
 #survey-form{
@@ -20,27 +23,50 @@ body{
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    width: 75%;
     padding: 2em;
 }
+
+hr{
+    width: 100%;
+}
+
 #background{
     display: flex;
     flex-direction: column;
-    flex-wrap:wrap;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
 }
-#rate-your-interaction{
+#name-label{
     display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: right;
+    gap: 1em;
 }
-#rate-your-experience{
+#name{
+    width: 15em;
+}
+#email-label{
     display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: right;
+    gap: 1em;
 }
-hr{
-    width: 100%;
+#email{
+    width: 15em;
+}
+#number-label{
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+    gap: 1em;
+}
+#number{
+    width: 15em;
+}
+#dropdown-label{
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+    gap: 1em;
+}
+#dropdown{
+    width: 15em;
 }

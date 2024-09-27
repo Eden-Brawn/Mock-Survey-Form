@@ -13,7 +13,8 @@ body{
     background-color: white;
     text-align: center;
     width: fit-content;
-  margin: auto;  
+    margin: auto;
+    width: 50%;  
 }
 #survey-form{
     background-color: white;
@@ -23,7 +24,7 @@ body{
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    padding: 2em;
+    width: 50%;
 }
 
 hr{
@@ -69,4 +70,9 @@ hr{
 }
 #dropdown{
     width: 15em;
+}
+
+#rate-your-experience{
+    display: flex;
+    flex-direction: column;
 }

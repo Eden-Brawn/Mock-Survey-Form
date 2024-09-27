@@ -32,6 +32,7 @@ hr{
 #background{
     display: flex;
     flex-direction: column;
+    padding-bottom: 1em;
 }
 #name-label{
     display: flex;
@@ -73,11 +74,21 @@ hr{
 #rate-your-experience{
     display: flex;
     flex-direction: column;
+    padding-bottom: 1em;
 }
 #comments-label{
     display: flex;
     flex-direction: column;
 }
 label{
-    margin-top: 1em;
+    padding-top: 1em;
+}
+.background:last-of-type{
+    margin-bottom: 1em;
+}
+#rate-your-interaction{
+    display: flex;
+    flex-direction: column;
+    padding-top: 1em;
+    padding-bottom: 1em;
 }

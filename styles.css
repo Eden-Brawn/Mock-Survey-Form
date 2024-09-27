@@ -104,9 +104,13 @@ label{
     padding-top: 0.75em;
     padding-bottom: 0.75em;
 }
+#set1{
+    margin-bottom: 0.75em;
+}
 #submit{
     margin-bottom: 1em;
-    padding: 1em;
+    width: 7.5em;
+    height: 2.5em;
 }
 
 @media (max-width: 500px){

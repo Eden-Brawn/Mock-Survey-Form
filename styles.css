@@ -113,7 +113,7 @@ label{
     height: 2.5em;
 }
 
-@media (max-width: 500px){
+@media (max-width: 750px){
     #name-label{
         display: flex;
         flex-direction: column;
